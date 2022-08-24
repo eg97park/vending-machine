@@ -1,3 +1,3 @@
 # vending-machine
 ## todo
-* 메세지박스 안됨.
+* QString::arg() -> https://doc.qt.io/qt-6/qstring.html#arg ?????
