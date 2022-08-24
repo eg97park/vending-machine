@@ -1,0 +1,7 @@
+/.qmake.stash
+/.vscode
+/main.o
+/moc_widget.o
+/vending-machine
+/vending-machine.pro.user
+/widget.o
