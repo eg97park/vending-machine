@@ -1,7 +1,7 @@
 #include "widget.h"
 #include "ui_widget.h"
 #include <QMessageBox>
-#include <string>
+#include <QString>
 
 
 Widget::Widget(QWidget *parent)
@@ -91,7 +91,6 @@ void Widget::on_pbMango_clicked()
 
 void Widget::on_reset_clicked()
 {
-    changeMoney((-1) * _money);
     ui->pbCoffee->setEnabled(false);
     ui->pbMilk->setEnabled(false);
     ui->pbMango->setEnabled(false);
@@ -108,9 +107,10 @@ void Widget::on_reset_clicked()
     int _10 = _money / 10;
     _money -= _10 * 10;
     
-    QString fMsg;
-    fMsg.asprintf("잔액\n\t500원 %d개\n\t100원 %d개\n\t50원 %d개\n\t10원 %d개", _500, _100, _50, _10);
+    QString fMsg("잔액\n\t500원 " + QString::number(_500) + "개\n\t100원 " + QString::number(_100) + "개\n\t50원 " + QString::number(_50) + "개\n\t10원 " + QString::number(_10) +"개");
+
     QMessageBox msg;
     msg.information(nullptr, "잔액", fMsg);
+    changeMoney((-1) * _money);
 }
 

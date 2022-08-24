@@ -1008,6 +1008,34 @@ widget.o: widget.cpp widget.h \
 		/opt/Qt/6.3.1/gcc_64/include/QtGui/QTransform \
 		/opt/Qt/6.3.1/gcc_64/include/QtCore/qnativeinterface.h \
 		ui_widget.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/QVariant \
+		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/QApplication \
+		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/qapplication.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qfuture.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qfutureinterface.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qmutex.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qresultstore.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qfuture_impl.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qthreadpool.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qthread.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qdeadlinetimer.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qelapsedtimer.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qrunnable.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qexception.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qpromise.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtGui/qguiapplication.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtGui/qinputmethod.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtCore/qlocale.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtGui/qguiapplication_platform.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/QLCDNumber \
+		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/qlcdnumber.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/qframe.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/QPushButton \
+		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/qpushbutton.h \
+		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/qabstractbutton.h \
 		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/QMessageBox \
 		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/qmessagebox.h \
 		/opt/Qt/6.3.1/gcc_64/include/QtWidgets/qdialog.h
